@@ -7,7 +7,7 @@
 void plusesDeleter(std::vector<int> &);
 
 int main() {
-    std::vector<int> v = {1, 0,3, -8, -9, 0, 10, 23,-1,12, -7};
+    std::vector <int> v = {1, 0,3, -8, -9, 0, 10, 23,-1,12, -7,3,0};
     plusesDeleter(v);
     for (int i = 0; i < v.size(); i++) std::cout << v[i] << " ";
     return 0;

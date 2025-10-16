@@ -8,7 +8,9 @@ std::vector<int>::iterator findInSorted(std::vector<int>::iterator, std::vector<
 
 int main() {
     std::vector<int> v = {1, 2, 3, 4, 5,7,8};
-    std::vector<int>::iterator it = findInSorted(v.begin(), v.end(), 7);
+    int n=0;
+    std::cout<<"element that needs to be found "; std::cin>>n;
+    std::vector<int>::iterator it = findInSorted(v.begin(), v.end(), n);
     std::cout << std::distance(v.begin(),it) << std::endl;
     return 0;
 }

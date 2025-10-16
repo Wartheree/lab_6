@@ -8,7 +8,7 @@
 void reverseNum(std::list<int>& );
 
 int main() {
-    std::list<int> nums = {1, 5, 4, -3};
+    std::list<int> nums = {1, 5, 4, 4, -3};
     reverseNum(nums);
     std::list<int>::iterator it=nums.begin();
     for (it;it!=nums.end();it++) {std::cout << *it << " ";}

@@ -26,23 +26,3 @@ int wordsCounter(const std::string& str) {
     if (count!=0) words_amount++;
     return words_amount;
 }
-
-
-
-
-
-
-
-/*int count = 0;
-int words_amount=0;
-for (int i =0 ; i < str.length(); i++) {
-    if (*(str.begin()+i) == ' ' || *(str.begin()+i) == ',' || *(str.begin()+i) == '.') {
-        if (count!=0) words_amount++;
-        count=0;
-    }
-    else count++;
-}
-if (count!=0) words_amount++;
-return words_amount;
-*/
-
